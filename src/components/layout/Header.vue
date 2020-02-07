@@ -33,26 +33,27 @@
   color: rgb(230, 230, 230);
 }
 
-.navlink{
+.navlink {
   position: relative;
 }
 
-.navlink:after{
-  content: '';
+.navlink:after {
+  content: "";
   position: absolute;
-  width: 0; height: 3px;
+  width: 0;
+  height: 3px;
   display: block;
   margin-top: 5px;
   right: 0;
-  background: rgb(230, 230, 230);;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
+  background: rgb(230, 230, 230);
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
 }
 
-.navlink:hover:after{
+.navlink:hover:after {
   width: 100%;
   left: 0;
-  background: rgb(230, 230, 230);;
+  background: rgb(230, 230, 230);
 }
 
 .navbar {
@@ -67,13 +68,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 0 20vw;
+  margin: 0 0 0 0;
   padding: 0;
-  width: 30%;
+  width: 80vw;
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 10vw;
 }
 
 ul {
@@ -83,7 +84,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60vw;
+  width: 30vw;
   height: 2.5vw;
 }
 
