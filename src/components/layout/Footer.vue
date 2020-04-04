@@ -2,39 +2,33 @@
   <div class="container-fluid">
     <ul class="footer-item">
       <li>
-        <router-link class="navlink" :to="{ name: 'home' }">Početna</router-link>
+        <router-link class="navlink" :to="{ name: 'home' }">{{ $t("home.title") }}</router-link>
       </li>
       <li>
-        <router-link class="navlink" to="#">Vila</router-link>
+        <router-link class="navlink" to="#">{{ $t("villa.title") }}</router-link>
       </li>
       <li>
-        <router-link class="navlink" to="#">Apartmani</router-link>
+        <router-link class="navlink" to="#">{{ $t("apartments.title") }}</router-link>
       </li>
       <li>
-        <router-link class="navlink" to="#">Kontakt</router-link>
+        <router-link class="navlink" to="#">{{ $t("contact.title") }}</router-link>
       </li>
     </ul>
     <div class="footer-item d-flex justify-content-center align-items-center flex-column">
       <p class="villa-title">
-        <strong>VILA RADOVANOVIĆ</strong>
+        <strong>{{ $t("footer.villaName") }}</strong>
       </p>
-      <p>2010 - 2020</p>
+      <p>{{ $t("footer.year") }}</p>
       <p>
-        <i>&copy; Sva prava zadržana</i>
-      </p>
-
-      <p>
-        <i>
-          Created and designed by
-          <a href="https://www.instagram.com/arsenosner/" target="_blank">Šekularac Arsen</a>
-        </i>
+        &copy;
+        <i>{{ $t("footer.copyright") }}</i>
       </p>
     </div>
     <div class="footer-item">
-      <p>Preporučujemo u Beogradu:</p>
+      <p>{{ $t("footer.recommendation.title") }}</p>
       <ul class="recommended-links">
         <li>
-          <a class="navlink" href="http://rakoc.com/">Apartmani Beograd</a>
+          <a class="navlink" href="http://rakoc.com/">{{ $t("footer.recommendation.rm1") }}</a>
         </li>
       </ul>
     </div>

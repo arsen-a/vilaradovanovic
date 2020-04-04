@@ -8,16 +8,16 @@
     <div class="navbar-links">
       <ul>
         <li>
-          <router-link class="navlink" :to="{ name: 'home' }">Početna</router-link>
+          <router-link class="navlink" :to="{ name: 'home' }">{{ $t("home.title") }}</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="#">Vila</router-link>
+          <router-link class="navlink" to="#">{{ $t("villa.title") }}</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="#">Apartmani</router-link>
+          <router-link class="navlink" to="#">{{ $t("apartments.title") }}</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="#">Kontakt</router-link>
+          <router-link class="navlink" to="#">{{ $t("contact.title") }}</router-link>
         </li>
       </ul>
     </div>
@@ -27,6 +27,7 @@
 <style scoped>
 .container-fluid {
   background-color: rgb(75, 62, 55);
+  height: 4.5rem;
 }
 
 .navlink:hover {
@@ -88,9 +89,10 @@ ul {
   height: 2.5vw;
 }
 
-a {
+ul > li > a {
   text-decoration: none;
   color: white;
   font-size: 18px;
+  padding: 15px 0 15px 0;
 }
 </style>
