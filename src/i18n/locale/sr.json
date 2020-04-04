@@ -1,3 +1,11 @@
 {
-  "ownerMessage": "Nekoliko godina smo radili na realizaciji ideje o malom, mirnom porodičnom hotelu u Banji Koviljači. Uzor su nam bili objekti tog tipa u banjama Slovenije, Češke, Austrije i Nemačke. Koncept je zamišljen tako da vila svojim položajem, izgledom, standardima i duhom, gostima pruži udoban i kvalitetan odmor uz prihvatljivu cenu. Ovo predstavljanje je tek prvi korak ka tom cilju."
+  "home": {
+    "ownerMessage": "Nekoliko godina smo radili na realizaciji ideje o malom, mirnom porodičnom hotelu u Banji Koviljači. Uzor su nam bili objekti tog tipa u banjama Slovenije, Češke, Austrije i Nemačke. Koncept je zamišljen tako da vila svojim položajem, izgledom, standardima i duhom, gostima pruži udoban i kvalitetan odmor uz prihvatljivu cenu. Ovo predstavljanje je tek prvi korak ka tom cilju.",
+    "dearVisitors": "Poštovani posetioci",
+    "signature": {
+        "p1": "Uz uvažavanje,",
+        "p2": "vlasnik",
+        "p3": "Radovanović Aleksandar"
+    }
+  }
 }

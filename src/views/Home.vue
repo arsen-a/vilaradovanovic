@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="owner-msg">
-      <h1>Poštovani posetioci</h1>
-      <p>{{ $t("ownerMessage") }}</p>
+      <h1>{{ $t("home.dearVisitors") }}</h1>
+      <p>{{ $t("home.ownerMessage") }}</p>
       <p>
-        Uz uvažavanje,
-        <br />vlasnik
+        {{ $t("home.signature.p1") }}
+        <br />{{ $t("home.signature.p2") }}
         <br />
-        <span class="signature">Radovanović Aleksandar</span>
+        <span class="signature">{{ $t("home.signature.p3") }}</span>
       </p>
     </div>
     <hr />
@@ -17,7 +17,7 @@
         style="border:0"
         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNwi2rchgWUcRAYRb70ECfFQ&key=AIzaSyD4WDZ9r9ThSXvkGt0WIwRMlqa9Jp1VJaM"
         allowfullscreen
-      ></iframe>
+      />
     </div>
   </div>
 </template>
