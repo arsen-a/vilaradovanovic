@@ -46,7 +46,6 @@
 
 .footer-item > .villa-title {
   font-size: 18px;
-  margin: 10px;
 }
 
 .footer-item {
