@@ -1,23 +1,23 @@
 <template>
   <div class="container-fluid m-0 p-0 d-flex">
     <div class="navbar">
-      <router-link to="/sr/home">
+      <router-link :to="{ name: 'home' }">
         <img class="logo" src="../../../public/images/logo.png" alt="Vila Radovanovic Logo" />
       </router-link>
     </div>
     <div class="navbar-links">
       <ul>
         <li>
-          <router-link class="navlink" to="/sr/home">Početna</router-link>
+          <router-link class="navlink" :to="{ name: 'home' }">Početna</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="/sr/vila">Vila</router-link>
+          <router-link class="navlink" to="#">Vila</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="/sr/apartmani">Apartmani</router-link>
+          <router-link class="navlink" to="#">Apartmani</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="/sr/kontakt">Kontakt</router-link>
+          <router-link class="navlink" to="#">Kontakt</router-link>
         </li>
       </ul>
     </div>

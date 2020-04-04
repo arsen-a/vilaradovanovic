@@ -2,16 +2,16 @@
   <div class="container-fluid">
     <ul class="footer-item">
       <li>
-        <router-link class="navlink" to="/sr/home">Početna</router-link>
+        <router-link class="navlink" :to="{ name: 'home' }">Početna</router-link>
       </li>
       <li>
-        <router-link class="navlink" to="/sr/vila">Vila</router-link>
+        <router-link class="navlink" to="#">Vila</router-link>
       </li>
       <li>
-        <router-link class="navlink" to="/sr/apartmani">Apartmani</router-link>
+        <router-link class="navlink" to="#">Apartmani</router-link>
       </li>
       <li>
-        <router-link class="navlink" to="/sr/kontakt">Kontakt</router-link>
+        <router-link class="navlink" to="#">Kontakt</router-link>
       </li>
     </ul>
     <div class="footer-item d-flex justify-content-center align-items-center flex-column">
@@ -24,7 +24,10 @@
       </p>
 
       <p>
-        <i>Created and designed by <a href="https://www.instagram.com/arsenosner/" target="_blankl">Šekularac Arsen</a></i>
+        <i>
+          Created and designed by
+          <a href="https://www.instagram.com/arsenosner/" target="_blank">Šekularac Arsen</a>
+        </i>
       </p>
     </div>
     <div class="footer-item">
@@ -53,12 +56,16 @@
 }
 
 .footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 2rem 0 2rem 0;
+  width: 15rem;
 }
 
 .footer-item > p {
-    padding: 0;
-    margin: 2px;
+  padding: 0;
+  margin: 2px;
   font-size: 13px;
   color: white;
 }
@@ -73,6 +80,4 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-
-
 </style>

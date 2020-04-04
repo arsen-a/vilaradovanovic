@@ -2,11 +2,7 @@
   <div class="container">
     <div class="owner-msg">
       <h1>Poštovani posetioci</h1>
-      <p>
-        Nekoliko godina smo radili na realizaciji ideje o malom, mirnom porodičnom hotelu u Banji Koviljači. Uzor su nam bili objekti tog tipa u banjama Slovenije, Češke, Austrije i Nemačke.
-        Koncept je zamišljen tako da vila svojim položajem, izgledom, standardima i duhom, gostima pruži udoban i kvalitetan odmor uz prihvatljivu cenu.
-        Ovo predstavljanje je tek prvi korak ka tom cilju.
-      </p>
+      <p>{{ $t("ownerMessage") }}</p>
       <p>
         Uz uvažavanje,
         <br />vlasnik
@@ -25,6 +21,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Home"
+};
+</script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Italianno&display=swap");
