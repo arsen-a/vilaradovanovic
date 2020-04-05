@@ -5,9 +5,10 @@
 </template>
 
 <script>
-import PhotoSlider from '../components/villa/PhotoSlider'
+import PhotoSlider from "../components/villa/PhotoSlider";
 
 export default {
+  name: "Villa",
   components: {
     PhotoSlider
   }
