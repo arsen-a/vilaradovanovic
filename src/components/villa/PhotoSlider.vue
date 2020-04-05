@@ -3,7 +3,7 @@
     <carousel
       :autoplay="true"
       :loop="true"
-      :perPage="3"
+      :perPage="2"
       :speed="1500"
       :autoplayTimeout="4000"
       class="slider"
@@ -51,11 +51,12 @@ export default {
 .slide {
   display: flex;
   justify-content: center;
-  max-height: 200px;
+  max-height: 350px;
 }
 
 .slide img {
   max-height: inherit;
+  width: auto;
 }
 
 button:focus {

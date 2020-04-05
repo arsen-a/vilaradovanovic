@@ -14,7 +14,13 @@
     }
   },
   "villa": {
-    "title": "Vila"
+    "title": "Vila",
+    "villaName": "Vila Radovanović",
+    "description": {
+      "first": " se nalazi u najlepšem delu Banje Koviljače, na uzvišenju, okružena park šumom, odmah pored nove trim staze. Od Specijalne bolnice za rehabilitaciju i banjskog parka udaljena je oko 180 metara.",
+      "second": "Objekat je ukupne površine 520 kvadratnih metara. Završen je juna 2010. godine, a sastoji se od 10 luksuznih apartmana, restorana i letnje bašte. Sve prostorije su klimatizovane. Centralno grejanje je na gas, alternativno na čvrsto gorivo. Parking prostor je pod stalnim video nadzorom. Internet je besplatan i stalno dostupan.",
+      "third": "Profesionalno osoblje je gostima na raspolaganju neprekidno 24 časa. Sa najvećom pažnjom se staramo da higijena bude na vrhunskom nivou."
+    }
   },
   "apartments": {
     "title": "Apartmani"
