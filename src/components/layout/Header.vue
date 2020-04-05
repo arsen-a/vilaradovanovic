@@ -11,7 +11,7 @@
           <router-link class="navlink" :to="{ name: 'home' }">{{ $t("home.title") }}</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="#">{{ $t("villa.title") }}</router-link>
+          <router-link class="navlink" :to="{ name: 'villa' }">{{ $t("villa.title") }}</router-link>
         </li>
         <li>
           <router-link class="navlink" to="#">{{ $t("apartments.title") }}</router-link>

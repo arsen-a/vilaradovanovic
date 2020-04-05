@@ -3,18 +3,22 @@
     <OwnerMsg />
     <hr />
     <GoogleMap />
+    <hr />
+    <Banja />
   </div>
 </template>
 
 <script>
 import GoogleMap from "../components/gMap/GoogleMap";
 import OwnerMsg from "../components/home/OwnerMsg";
+import Banja from '../components/home/Banja'
 
 export default {
   name: "Home",
   components: {
     GoogleMap,
-    OwnerMsg
+    OwnerMsg,
+    Banja
   }
 };
 </script>

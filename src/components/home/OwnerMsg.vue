@@ -9,8 +9,21 @@
       <br />
       <span class="signature">{{ $t("home.signature.p3") }}</span>
     </p>
+    <div class="d-flex justify-content-center">
+      <button class="btn go-villa-btn" type="button" @click="goVilla">Pogledaj Vilu</button>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    goVilla() {
+      this.$router.push({ name: "villa" });
+    }
+  }
+};
+</script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Italianno&display=swap");
@@ -33,5 +46,11 @@ p {
 .signature {
   font-family: "Italianno", cursive;
   font-size: 40px;
+}
+
+.go-villa-btn {
+  background-color: rgb(139, 115, 101);
+  padding: 10px 30px;
+  color: white;
 }
 </style>
