@@ -1,6 +1,6 @@
 # Vila Radovanovic
 ```
-Vue JS powered SPA for Vila Radovanovic. Created and maintained by Arsen Sekularac.
+Vue JS powered SPA for Vila Radovanovic. Developed and maintained by Arsen Sekularac.
 ```
 
 ## Project setup
