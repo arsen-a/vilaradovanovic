@@ -25,6 +25,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^4.2.5",
+    "lint-staged": "^10.1.3",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -44,5 +45,16 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
