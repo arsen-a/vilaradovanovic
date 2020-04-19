@@ -10,7 +10,7 @@
       <span class="signature">{{ $t("home.signature.p3") }}</span>
     </p>
     <div class="d-flex justify-content-center">
-      <button class="btn go-villa-btn" type="button" @click="goVilla">Pogledaj Vilu</button>
+      <button class="btn go-villa-btn" type="button" @click="goVilla">{{ $t('home.goVillaBtn') }}</button>
     </div>
   </div>
 </template>

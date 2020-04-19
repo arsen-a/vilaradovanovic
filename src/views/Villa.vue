@@ -1,21 +1,21 @@
 <template>
   <div>
-    <Description />
+    <VillaDescription />
     <hr />
-    <PhotoSlider />
+    <VillaPhotoSlider />
     <hr />
   </div>
 </template>
 
 <script>
-import PhotoSlider from "../components/villa/PhotoSlider";
-import Description from "../components/villa/Description";
+import VillaPhotoSlider from "../components/villa/VillaPhotoSlider";
+import VillaDescription from "../components/villa/VillaDescription";
 
 export default {
   name: "Villa",
   components: {
-    PhotoSlider,
-    Description
+    VillaPhotoSlider,
+    VillaDescription
   },
   mounted() {
     window.scrollTo(0, 0);

@@ -11,7 +11,8 @@
     "banjaDesc": {
       "title": "Banja Koviljača",
       "desc": "Kroz mozaik srednje visokih planina (Gučevo, Boranja, Sokolske planine, Cer), ka prostranim ravnicama Mačvi i Semberiji, teče bistra i krivudava Drina. Nedaleko od reke, u podnožju šumovitog Gučeva, uz magistralni put Zvornik-Loznica, nalazi se Banja Koviljača, banja pod legendarnim Koviljkinim Gradom, čiji se tragovi i danas zapažaju."
-    }
+    },
+    "goVillaBtn": "Pogledaj Vilu"
   },
   "villa": {
     "title": "Vila",
@@ -23,7 +24,12 @@
     }
   },
   "apartments": {
-    "title": "Apartmani"
+    "title": "Apartmani",
+    "description": {
+      "first": "Apartmani su površine od 20 do 40 kvadratnih metara. Sastoje se od sobe, kuhinje, kupatila i terase. Raspolažemo sa 3 dvokrevetna, 3 trokrevetna i 4 četvorokrevetna apartmana , koji su potpuno zvučno i termički izolovani, pa obezbeđuju mir i privatnost. Sobe su svetle, prostrane i opremljene novim, modernim nameštajem, klima uređajima i tv aparatima.",
+      "second": "Čajne kuhinje su takođe kompletno opremljene (sudopera, šporet, frižider, viseći elementi, posuđe itd).",
+      "third": "Kupatila su prostrana, sa prvoklasnom keramikom, sanitarijama i tuš kabinama."
+    }
   },
   "contact": {
     "title": "Kontakt"

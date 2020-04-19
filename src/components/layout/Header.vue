@@ -14,12 +14,19 @@
           <router-link class="navlink" :to="{ name: 'villa' }">{{ $t("villa.title") }}</router-link>
         </li>
         <li>
-          <router-link class="navlink" to="#">{{ $t("apartments.title") }}</router-link>
+          <router-link class="navlink" :to="{ name: 'apartments' }">{{ $t("apartments.title") }}</router-link>
         </li>
         <li>
           <router-link class="navlink" to="#">{{ $t("contact.title") }}</router-link>
         </li>
       </ul>
+    </div>
+    <div class="navbar">
+      <div class="locale">
+        <button class="btn btn-secondary" type="button">SR</button>
+        <button class="btn btn-secondary" type="button">EN</button>
+        <button class="btn btn-secondary" type="button">DE</button>
+      </div>
     </div>
   </div>
 </template>
@@ -59,10 +66,11 @@
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   padding: 0;
+  width: 15vw;
 }
 
 .navbar-links {
@@ -71,11 +79,21 @@
   align-items: center;
   margin: 0 0 0 0;
   padding: 0;
-  width: 80vw;
+  width: 70vw;
 }
 
 .logo {
-  max-width: 10vw;
+  max-height: 70px;
+}
+
+.locale {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.locale button {
+  margin: 0 25px 0 25px;
 }
 
 ul {
